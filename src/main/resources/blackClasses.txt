@@ -1,0 +1,7 @@
+java.util.Date@@toString@@{return "hahaha";}
+java.util.Date@@equals@@{return true;}
+java.lang.ProcessImpl@@start@@{return null;}
+org.apache.coyote.Request@@getResponse@@{return null;}
+org.apache.catalina.core.StandardContext@@addApplicationEventListener@@{System.out.println("delete listener");}
+org.apache.catalina.core.StandardContext@@addServletMapping@@{System.out.println("delete servlet");}
+org.apache.catalina.core.StandardContext@@findFilterMaps@@{System.out.println("delete filter");return null;}
